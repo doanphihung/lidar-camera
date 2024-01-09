@@ -1,0 +1,16 @@
+.camera-display {
+    cursor: pointer;
+}
+
+.flash {
+    animation: flashAnimation 0.5s infinite;
+}
+
+@keyframes flashAnimation {
+    0%, 50%, 100% {
+        background-color: white;
+    }
+    25%, 75% {
+        background-color: red;
+    }
+}
